@@ -1,0 +1,38 @@
+body{
+    background-color: #1d1c1c;
+}
+#chat{
+    background-color: #313030;
+    padding: 20px;
+     position:fixed;
+     right: 50px;
+     bottom: 100px;
+}
+#chat .nav{
+    background-color: rgb(65, 238, 131);
+}
+#chat .messages{
+    background-color:#c7c5c5;
+    height: 400px;
+    width: 300px;
+}
+#chat .messages .me{
+    background-color: green;
+    color: white;
+    float: right;
+    padding: 5px;
+    border-radius: 20px;
+    margin-left: 600px;
+}
+#chat .messages .you{
+    background-color: rgb(109, 108, 108);
+    color: white;
+    padding: 5px;
+    float: left;
+    border-radius: 20px;
+    
+
+}
+
+
+

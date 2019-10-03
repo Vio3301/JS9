@@ -1,0 +1,26 @@
+javascript Events -> DOM
+ * Event - class -> objects
+ * observer Pattern
+ * HOW ?
+    1) html <tag onclik="Callback()">
+    2) elemennt.onclik = Callback 
+    3) elemennt.addEventListener('click', Callback) ! Profesional   -
+    4) element.removeEventListener('click', Callback) ! Profesional  -
+ * function Callback (e <-- event){ // DI
+   
+
+ }
+ * Event object <---- context
+ * Event object < --- bubbles
+  window
+    document
+      body
+        <parent>
+           <child>   <--- click
+           </child>
+        </parent>
+
+  * event.stopPropagation()
+  * event.preventDefault()
+   
+ Callback() <----(action) <----- [SUBJECT] <---- Observer
